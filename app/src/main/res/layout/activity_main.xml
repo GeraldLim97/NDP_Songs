@@ -14,7 +14,7 @@
         android:text="Song Title" />
 
     <EditText
-        android:id="@+id/etSongTitle"
+        android:id="@+id/etTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -27,7 +27,7 @@
         android:text="Singers" />
 
     <EditText
-        android:id="@+id/etSingerName"
+        android:id="@+id/etSingers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -51,6 +51,7 @@
         android:layout_height="wrap_content">
 
         <RadioGroup
+            android:id="@+id/rdGrp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
